@@ -1,0 +1,52 @@
+@charset "CP850";
+/* FONT FACES :D */
+@font-face {
+  font-family: gotham_thin;
+  src: url("/font/gotham-thin-webfont.eot");
+  src: local("☺︎"), url("/font/gotham-thin-webfont.eot?#iefix") format("embedded-opentype"), url("/font/gotham-thin-webfont.woff") format("woff"), url("/font/gotham-thin-webfont.ttf") format("truetype"), url("/font/gotham-thin-webfont.svg#gotham_thinregular") format("svg"); }
+@font-face {
+  font-family: gotham_book;
+  src: url("/font/gotham-book-webfont.eot");
+  src: local("☺︎"), url("/font/gotham-book-webfont.eot?#iefix") format("embedded-opentype"), url("/font/gotham-book-webfont.woff") format("woff"), url("/font/gotham-book-webfont.ttf") format("truetype"), url("/font/gotham-book-webfont.svg#gotham_bookregular") format("svg"); }
+@font-face {
+  font-family: gotham_light;
+  src: url("/font/gotham-light-webfont.eot");
+  src: local("☺︎"), url("/font/gotham-light-webfont.eot?#iefix") format("embedded-opentype"), url("/font/gotham-light-webfont.woff") format("woff"), url("/font/gotham-light-webfont.ttf") format("truetype"), url("/font/gotham-light-webfont.svg#gotham_lightregular") format("svg"); }
+html {
+  overflow-y: scroll; }
+
+body {
+  font-size: 16px;
+  font-family: gotham_light;
+  background: #08090a; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
+.clear {
+  clear: both; }
+
+header {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #363942;
+  text-transform: uppercase;
+  padding: 0.2em 0; }
+  header section {
+    float: left;
+    color: #5c832f;
+    font-size: 2em; }
+  header nav ul {
+    float: right;
+    color: #d8caa8; }
+    header nav ul li {
+      display: inline-block; }
+      header nav ul li a {
+        font-size: 1.1em;
+        display: block;
+        padding: 0 1em;
+        line-height: 2em; }
+      header nav ul li a:hover {
+        color: #5c832f; }
