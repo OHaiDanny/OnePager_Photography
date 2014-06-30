@@ -59,10 +59,14 @@ header {
     background:$fifthColor;
     text-transform:uppercase;
     padding:0.2em 0;
+    z-index:100;
     section {
         float:left;
         color:$secondColor;
         font-size:2em;
+        span {
+            color:$firstColor;
+        }
     }
     nav ul {
         float:right;
@@ -80,4 +84,8 @@ header {
             }
         }
     }
+}
+
+#body {
+    margin-bottom:2.3em;
 }

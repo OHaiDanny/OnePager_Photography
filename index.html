@@ -7,25 +7,85 @@
     <meta name="description" content="Franzi Ime is a professional photographer with 10 years of experience. She specialize in landscape photography and urban photography to capture stories that are caught 'in the moment'." />
     <link rel="stylesheet" type="text/css" href="css/reset.css" media="screen">
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/justifiedGallery.min.css" media="screen">
     <link rel="stylesheet" type="text/css" href="css/franzi.css" media="screen">
 </head>
 
 <body>
     <header>
         <section>
-            <a href="/">Franzi Ime | Photography</a>
+            <a href="/"><h2><span>Franzi Ime</span> Photography</h2></a>
         </section>
         <nav>
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Landscape</a></li>
-                <li><a href="">Urban</a></li>
-                <li><a href="">Franzi Ime</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="">Home</a>
+                </li>
+                <li><a href="">Landscape</a>
+                </li>
+                <li><a href="">Urban</a>
+                </li>
+                <li><a href="">Franzi Ime</a>
+                </li>
+                <li><a href="">Contact</a>
+                </li>
             </ul>
         </nav>
         <div class="clear"></div>
     </header>
+    <div id="body">
+        <div class="img">
+            <img src="img/architecture/01.jpg" alt="">
+        </div>
+        <div class="img">
+            <img src="img/architecture/02.jpg" alt="Architecture 2">
+        </div>
+        <div class="img">
+            <img src="img/architecture/03.jpg" alt="Architecture 3">
+        </div>
+        <div class="img">
+            <img src="img/architecture/04.jpg" alt="Architecture 4">
+        </div>
+        <div class="img">
+            <img src="img/architecture/05.jpg" alt="Architecture 5">
+        </div>
+        <div class="img">
+            <img src="img/landscape/01.jpg" alt="Architecture 1">
+        </div>
+        <div class="img">
+            <img src="img/landscape/02.jpg" alt="Architecture 2">
+        </div>
+        <div class="img">
+            <img src="img/landscape/03.jpg" alt="Architecture 3">
+        </div>
+        <div class="img">
+            <img src="img/landscape/04.jpg" alt="Architecture 4">
+        </div>
+        <div class="img">
+            <img src="img/landscape/05.jpg" alt="Architecture 5">
+        </div>
+        <div class="img">
+            <img src="img/urban/01.jpg" alt="Architecture 1">
+        </div>
+        <div class="img">
+            <img src="img/urban/02.jpg" alt="Architecture 2">
+        </div>
+        <div class="img">
+            <img src="img/urban/03.jpg" alt="Architecture 3">
+        </div>
+        <div class="img">
+            <img src="img/urban/04.jpg" alt="Architecture 4">
+        </div>
+        <div class="img">
+            <img src="img/urban/05.jpg" alt="Architecture 5">
+        </div>
+    </div>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.justifiedGallery.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#body").justifiedGallery();
+        });
+    </script>
 </body>
 
 </html>

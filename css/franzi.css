@@ -33,11 +33,14 @@ header {
   width: 100%;
   background: #363942;
   text-transform: uppercase;
-  padding: 0.2em 0; }
+  padding: 0.2em 0;
+  z-index: 100; }
   header section {
     float: left;
     color: #5c832f;
     font-size: 2em; }
+    header section span {
+      color: #d8caa8; }
   header nav ul {
     float: right;
     color: #d8caa8; }
@@ -50,3 +53,6 @@ header {
         line-height: 2em; }
       header nav ul li a:hover {
         color: #5c832f; }
+
+#body {
+  margin-bottom: 2.3em; }
