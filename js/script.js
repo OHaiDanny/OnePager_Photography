@@ -2,7 +2,7 @@ $(document).ready(function () {
     // load justified gallery
     $("#body").justifiedGallery();
 
-    $('#reset').click(function () {
+    $('#home').click(function () {
         reset();
     });
 
