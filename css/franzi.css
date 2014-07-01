@@ -56,3 +56,6 @@ header {
 
 #body {
   margin-bottom: 2.3em; }
+  #body img {
+    float: left;
+    height: 250px; }

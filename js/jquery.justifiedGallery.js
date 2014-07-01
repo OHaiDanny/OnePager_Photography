@@ -23,7 +23,7 @@
 				'lt640': '_z', 
 				'lt1024': '_b'
 			},
-			rowHeight : 250,
+			rowHeight : 400,
 			maxRowHeight : 0, //negative value = no limits, 0 = 1.5 * rowHeight
 			margins : 5,
 			lastRow : 'justify', // or can be 'justify' or 'hide'
@@ -34,12 +34,12 @@
 			captionsVisibleOpacity : 0.7, 
 			imagesAnimationDuration : 300,
 			fixedHeight : false,
-			captions : true,
+			captions : false,
 			rel : null, //rewrite the rel of each analyzed links
 			target : null, //rewrite the target of all links
 			extension : /\.[^.]+$/,
 			refreshTime : 250,
-			randomize : false
+			randomize : true
 		};
 
 		function getSuffix(width, height, context) {
