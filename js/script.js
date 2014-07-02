@@ -7,6 +7,7 @@ $(document).ready(function () {
     });
 
     $("nav a[href^='#']").click(function () {
+        reset();
         if ($(this).attr('href').replace('#', '') != 'home') {
             var category = ['land', 'arch', 'urban'];
             var toRemove = $(this).attr('href').replace('#', '');
