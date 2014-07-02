@@ -35,17 +35,28 @@ header {
   z-index: 100;
   position: fixed;
   top: 0; }
+  header aside {
+    display: block;
+    float: right;
+    font-size: 1.5em;
+    padding-right: 0.25em;
+    color: #d8caa8; }
   header section {
+    display: block;
     text-align: center;
     color: #5c832f;
     font-size: 2em; }
     header section span {
       color: #d8caa8; }
   header nav ul {
-    display: none;
+    position: absolute;
+    right: 0;
+    top: 2em;
+    width: auto;
+    background: #1f2126;
     color: #d8caa8; }
     header nav ul li {
-      display: inline-block; }
+      display: block; }
       header nav ul li a {
         font-size: 1.1em;
         display: block;
@@ -67,12 +78,16 @@ header {
     text-transform: uppercase;
     padding: 0.2em 0;
     z-index: 100; }
+    header aside {
+      display: none; }
     header section {
       color: #5c832f;
       font-size: 2em; }
       header section span {
         color: #d8caa8; }
     header nav ul {
+      position: static;
+      background: transparent;
       text-align: center;
       display: block;
       color: #d8caa8; }
